@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+        font-family:'foont';
+        src: url('fontes/idroid.otf'); format (opentype)
+}
+
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+        background-image: linear-gradient(to top, rgb(27, 99, 27), rgb(71, 252, 110));
+}
+h1{
+    padding: 25px;
+    border: 5px 5px 5px 5px;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+p.p-cabecalho {
+      padding: 25px;
+    border: 5px 5px 5px 5px;
+    margin: 5px;
+    text-align: center; 
+    color: white; 
+}
+nav > a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    
+}
+nav > a:hover{
+    color: aquamarine;
+}
+main{
+    margin: 0rem 15rem;
+    padding: 3px;
+    background-color: azure;
+    color: black;
+    
+}
+h2{
+    padding: 10px;
+    color: rgb(27, 99, 27);
+        font-family: 'foont', Arial, Helvetica, sans-serif;
+}
+h3{
+    padding: 10px;
+    color: rgb(27, 99, 27);
+        font-family: 'foont', Arial, Helvetica, sans-serif;
+}
+img{
+    margin: 10%;
+    border: 0;
+}
+p{
+    padding: 1em;
+    text-align: justify;
+}
+section > div > div{
+    background-color: chartreuse;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+div#final {
+    background-color: rgb(25, 248, 174);
+    padding: 5px;
+    font-weight: bolder;
+    color: white;
+}
+div#finall {
+    background-color: rgb(172, 245, 221);
+}

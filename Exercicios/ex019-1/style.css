@@ -1,0 +1,28 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(130, 130, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    color: rgb(100, 1, 999);
+
+}
+h1#principal{
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+h2{
+    color: rgb(141, 38, 238);
+}
+h2#link{
+    text-align: left;
+    color: rgb(255, 0, 0);
+    font-family: serif;
+}
+.avancado{
+    color: rgb(141, 0, 0);
+    text-align: left;
+
+}

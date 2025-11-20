@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(102, 122, 102);
+        }
+        a{
+        color: rgb(5, 87, 46);
+        text-decoration: none;
+        font-weight: bold;
+        }
+        a:visited{
+            color: rgb(247, 162, 5);
+        }
+        a:hover{
+            font-style: italic;
+            color: blue;
+        }
+        a:active{
+         color: rgb(0, 225, 255);
+        }
+        a::after{
+            content: '...[ link ]';
+            font-style: italic;
+            font-weight: normal;
+            color: rgb(192, 192, 192);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.flamengo.com.br/" target="_blank">Site Oficial Flamengo</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank">Site do Youtube</a></li>
+        <li><a href="https://www.twitch.tv/" target="_blank">Site da Twitch TV</a></li>
+        <li><a href="https://www.codashop.com/pt-br/">CodaShop</a></li>
+    </ul>
+
+    
+</body>
+</html>

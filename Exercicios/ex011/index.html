@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Imagem adaptável</title>
+    <style>
+        body{
+        background-color: rgb(100, 100, 200);
+        }
+    </style>
+</head>
+<body>
+    <img src="imagemR.png" alt="imagem topo">
+    <h1>Imagem Dinâmica</h1>
+    <p>Abre esse site em diversos aparelhos diferentes ou aumente e diminua seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos fazer uma reprozução de audio</p>
+    <audio src="midia/Only me - Patrick Patrikios.mp3" controls loop>Audio</audio>
+
+    <audio preload="metadata" controls loop>
+        <source src="midia/Only me - Patrick Patrikios.mp3" type="audio/mpeg">
+    </audio>
+    <br>
+    <video src="midia/video.mp4" width="300" controls>video</video>
+    <h1>Inserindo videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0s4NslQ1Mac?si=21KqQIcJ6uBm3dgc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <img src="cursoemvideo.png" alt="imagem rodapé">
+    
+</body>
+</html>

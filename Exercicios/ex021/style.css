@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(100, 100, 200);
+}
+h1{
+    text-align: center;
+    height: 40px;
+    width: 300px;
+    background-color: blueviolet;
+
+    border: 5px solid rgb(56, 3, 80);
+
+    padding: 20px 20px 20px 20px;
+
+    margin: 10px 10px 10px 10px;
+
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid rgb(70, 5, 131)
+}
