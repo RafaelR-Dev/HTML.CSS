@@ -7,4 +7,4 @@ Curso HTML e CSS - Gustavo Guanabara
 <br>
 <a href="https://rafaelr-dev.github.io/HTML.CSS/Exercicios/ex003/index.html">Executar o exercicio 003</a>
 <br>
-<a href="https://rafaelr-dev.github.io/Projeto-android/">1° Projeto HTML-CSS - Curso em Video</a>
+<a href="https://rafaelr-dev.github.io/Projeto-android/" target="_blank">1° Projeto HTML-CSS - Curso em Video</a>
