@@ -68,7 +68,7 @@ header {
 
 header h1 {
     color: rgb(255, 255, 255);
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     font-family: var(--font-destaque);
     font-size: 3em;
 }
